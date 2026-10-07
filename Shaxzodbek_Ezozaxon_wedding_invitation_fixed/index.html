@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7c5a91">
+  <title>Shaxzodbek & E’zozaxon — To‘yimiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" aria-hidden="true"></div>
+
+  <section class="cover" id="cover">
+    <div class="flower flower-a">❀</div>
+    <div class="flower flower-b">✿</div>
+    <div class="cover-inner">
+      <p class="eyebrow">TO‘Y TAKLIFNOMASI</p>
+      <div class="names">Shaxzodbek <span>&</span> E’zozaxon</div>
+      <div class="line"></div>
+      <h1>TO‘YIMIZ</h1>
+      <p class="date">08 · 11 · 2026</p>
+      <button class="open-btn" id="openBtn">Taklifnomani ochish</button>
+    </div>
+    <div class="scroll-hint">↓</div>
+  </section>
+
+  <main id="main" class="hidden">
+    <section class="section intro reveal">
+      <div class="ornament">❦</div>
+      <p class="eyebrow">AZIZ YAQINLARIMIZ VA QADRLI MEHMONLAR!</p>
+      <h2>Sizni to‘yimizga taklif qilamiz</h2>
+      <p class="text">
+        Hayotimizdagi eng go‘zal va unutilmas kunlardan biri —
+        to‘yimiz munosabati bilan Sizni samimiy davramizga taklif qilamiz.
+        Quvonchimizga sherik bo‘lib, baxtli kunimizda biz bilan birga bo‘lishingizni istaymiz.
+      </p>
+      <div class="signature">Shaxzodbek & E’zozaxon</div>
+    </section>
+
+    <section class="section details reveal">
+      <div class="flower-corner">❀</div>
+      <p class="eyebrow">TO‘YIMIZ</p>
+      <div class="detail-grid">
+        <div class="detail-card">
+          <span class="icon">♡</span>
+          <small>SANA</small>
+          <strong>8-noyabr, 2026-yil</strong>
+        </div>
+        <div class="detail-card">
+          <span class="icon">◷</span>
+          <small>VAQT</small>
+          <strong>15:00</strong>
+        </div>
+        <div class="detail-card wide">
+          <span class="icon">⌖</span>
+          <small>MANZIL</small>
+          <strong>"OZODA" to‘yxonasi</strong>
+          <p>Sirdaryo viloyati, Guliston tumani,<br>
+          Dehqonobod shahar posyolkasi,<br>
+          Turkiston ko‘chasi</p>
+          <a class="map-btn" href="https://www.google.com/maps/search/?api=1&query=OZODA+to'yxonasi+Dehqonobod+Guliston+Sirdaryo" target="_blank" rel="noopener">Xaritada ko‘rish</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section countdown-section reveal">
+      <div class="flower flower-c">✿</div>
+      <p class="eyebrow">BIZNING KUNIMIZGACHA</p>
+      <h2>Har bir lahzani intiqlik bilan kutamiz</h2>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>kun</span></div>
+        <div><strong id="hours">00</strong><span>soat</span></div>
+        <div><strong id="minutes">00</strong><span>daqiqa</span></div>
+        <div><strong id="seconds">00</strong><span>soniya</span></div>
+      </div>
+    </section>
+
+    <section class="section rsvp reveal">
+      <div class="ornament">❦</div>
+      <p class="eyebrow">RSVP</p>
+      <h2>Sizni kutib qolamiz!</h2>
+      <p class="text">To‘yimizda ishtirok etishingizni oldindan tasdiqlashingizni so‘raymiz.</p>
+      <div class="rsvp-buttons">
+        <a href="https://wa.me/?text=Assalomu%20alaykum!%20Shaxzodbek%20va%20E%27zozaxonning%20to%27yiga%20albatta%20kelaman." target="_blank" rel="noopener">Albatta kelaman</a>
+        <a href="https://wa.me/?text=Assalomu%20alaykum!%20Afsuski%2C%20Shaxzodbek%20va%20E%27zozaxonning%20to%27yiga%20kela%20olmayman." target="_blank" rel="noopener" class="secondary">Kela olmayman</a>
+      </div>
+      <p class="note">* RSVP tugmalari hozircha WhatsApp orqali ochiladi. Keyin aniq raqamni qo‘shish mumkin.</p>
+    </section>
+
+    <section class="final reveal">
+      <div class="final-flower">❀</div>
+      <div class="names small">Shaxzodbek <span>&</span> E’zozaxon</div>
+      <h2>Sizni kutib qolamiz!</h2>
+      <p>08 · 11 · 2026</p>
+      <div class="final-flower">✿</div>
+    </section>
+  </main>
+
+  <button class="music" id="musicBtn" aria-label="Musiqani yoqish yoki o‘chirish">♫</button>
+  <audio id="audio" loop>
+    <!-- Bu yerga o‘zingiz tanlagan MP3 faylni music.mp3 nomi bilan qo‘ying -->
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
